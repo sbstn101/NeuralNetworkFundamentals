@@ -108,7 +108,7 @@ class GridWindow(QMainWindow):
 
     def closeWindow(self):
         simulation_data.iterations.extend(self.iterationList)
-        self.save_simulation_data(simulation_data, 'simulation_data.pkl')
+        self.save_simulation_data(simulation_data, './data/simulation_data.pkl')
         self.close()
 
 if __name__ == '__main__':
