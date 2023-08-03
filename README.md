@@ -1,7 +1,5 @@
-## Forward forward algorithm
+## Fundamentals of artificial neural networks
 
-The idea of this repository is to use Numpy to recreate the Forward-Forward algorithm introduced by Geoffrey Hinton in this paper: https://arxiv.org/pdf/2212.13345.pdf
+Often when doing machine learning on University courses and especially in industry, we rely more and more on abstract libraries and smart new tools to implement the neural networks that we want for our tasks. This is fine and good as long as the libraries and tools are sufficient and you only want to utilize what already exists. However, if you are interested in creating something new and researching the state of the art methods, it is paramount to understand the fundamentals and how the abstract methods work under the hood. 
 
-I am doing this to learn to understand the algorithm better and to test it's performance against backpropagation on various tasks.
-
-Ín the future I'm planning on expanding this to more complex networks.
+This is why I am doing this project, to learn how a basic ANN is implemented from scratch and to understand the intricacies of all the basic concepts like backpropagation, gradient decent and alike. I will continue by building on this and implementing methods like the forward forward algorithm and more complex network types in the future.
